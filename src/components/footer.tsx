@@ -28,9 +28,9 @@ export const Footer = () => {
   }, [])
 
   return (
-    <div className=" bg-transparent relative">
+    <div className="bg-transparent relative">
       <div className="h-20 z-10 bg-white rounded-b-[40px] absolute top-0 w-full"></div>
-      <div ref={footerRef} className="bg-[#c9d0d5] pt-20 -z-10 relative">
+      <div ref={footerRef} className="bg-[#c9d0d5] pt-20">
         <footer className="flex justify-between container py-20">
           <div className="col-span-6">
             <div>

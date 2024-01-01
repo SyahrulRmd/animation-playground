@@ -77,12 +77,11 @@ export default function Home() {
       <section className="mt-10 bg-[#0d0f11] py-10 relative">
         <Showcase />
       </section>
-      <section className="mt-20 container xs:px-4 sm:px-4 bg-white pb-20">
+      <section className="mt-20 container xs:px-4 sm:px-4 bg-white z-10 relative pb-20">
         <HeaderPortofolio />
         <CardsPortofolio />
       </section>
       <Footer />
-      {/* <div className="h-screen"></div> */}
     </div>
   )
 }
