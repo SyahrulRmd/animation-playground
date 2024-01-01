@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Freisgeist';
+  src:
+    local('Freisgeist'),
+    url('/fonts/freigeist-conblack.otf') format('opentype');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Freisgeist';
+  src:
+    local('Freisgeist'),
+    url('/fonts/freigeist-conblackitalic.otf') format('opentype');
+  font-display: swap;
+  font-style: italic;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Freisgeist';
+  src:
+    local('Freisgeist'),
+    url('/fonts/freigeist-conbold.otf') format('opentype');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Freisgeist';
+  src:
+    local('Freisgeist'),
+    url('/fonts/freigeist-conbolditalic.otf') format('opentype');
+  font-display: swap;
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Freisgeist';
+  src:
+    local('Freisgeist'),
+    url('/fonts/freigeist-conmedium.otf') format('opentype');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Freisgeist';
+  src:
+    local('Freisgeist'),
+    url('/fonts/freigeist-conmediumitalic.otf') format('opentype');
+  font-display: swap;
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Freisgeist';
+  src:
+    local('Freisgeist'),
+    url('/fonts/freigeist-conregular.otf') format('opentype');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Freisgeist';
+  src:
+    local('Freisgeist'),
+    url('/fonts/freigeist-conregularitalic.otf') format('opentype');
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Freisgeist';
+  src:
+    local('Freisgeist'),
+    url('/fonts/freigeist-conlight.otf') format('opentype');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Freisgeist';
+  src:
+    local('Freisgeist'),
+    url('/fonts/freigeist-conlightitalic.otf') format('opentype');
+  font-display: swap;
+  font-style: italic;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Freisgeist';
+  src:
+    local('Freisgeist'),
+    url('/fonts/freigeist-conthin.otf') format('opentype');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Freisgeist';
+  src:
+    local('Freisgeist'),
+    url('/fonts/freigeist-conthinitalic.otf') format('opentype');
+  font-display: swap;
+  font-style: italic;
+  font-weight: 100;
+}
