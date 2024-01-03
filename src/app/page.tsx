@@ -17,7 +17,7 @@ import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen relative">
+    <div className="min-h-screen bg-white">
       <section className="p-3 min-h-screen flex relative">
         <div className="absolute z-50 flex gap-4 right-10 top-10">
           <Button id={'top-nav'} className="hover:text-white">
@@ -77,10 +77,12 @@ export default function Home() {
       <section className="mt-10 bg-[#0d0f11] py-10 relative">
         <Showcase />
       </section>
-      <section className="mt-20 container xs:px-4 sm:px-4 bg-white z-10 relative pb-20">
-        <HeaderPortofolio />
-        <CardsPortofolio />
-      </section>
+      <div className="bg-white z-10 relative">
+        <section className="mt-20 container xs:px-4 sm:px-4 z-10 bg-white relative pb-20">
+          <HeaderPortofolio />
+          <CardsPortofolio />
+        </section>
+      </div>
       <Footer />
     </div>
   )

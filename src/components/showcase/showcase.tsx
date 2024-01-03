@@ -119,7 +119,7 @@ export const Showcase = () => {
           </div>
         </div>
       </div>
-      <div className='mt-60'>
+      <div className='mt-40'>
         <GridMockup />
       </div>
     </div>

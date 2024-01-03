@@ -10,6 +10,8 @@ export const Footer = () => {
 
   useLayoutEffect(() => {
     const ctx = gsap.context(() => {
+      gsap.set(footerRef.current, { clearProps: true })
+      
       gsap.fromTo(footerRef.current, {
         yPercent: -100
       }, {
@@ -17,21 +19,23 @@ export const Footer = () => {
         ease: "none",
         scrollTrigger: {
           trigger: footerRef.current,
-          start: "top bottom", 
-          end: "top 330",
+          start: "top bottom",
+          end: "+=" + footerRef.current?.offsetHeight,
           scrub: true,
           invalidateOnRefresh: true,
+          markers: true,
         }
       });
     }, footerRef)
+
     return () => ctx.revert()
-  }, [])
+  }, [footerRef.current?.offsetHeight])
 
   return (
     <div className="bg-transparent relative">
       <div className="h-20 z-10 bg-white rounded-b-[40px] absolute top-0 w-full"></div>
-      <div ref={footerRef} className="bg-[#c9d0d5] pt-20">
-        <footer className="flex justify-between container py-20">
+      <div ref={footerRef} className="bg-[#c9d0d5] pt-20 relative z-[1]">
+        <footer className="flex flex-wrap gap-6 justify-between container py-20">
           <div className="col-span-6">
             <div>
               <h2 className="font-semibold text-5xl mb-4">We would like to hear from you.</h2>
